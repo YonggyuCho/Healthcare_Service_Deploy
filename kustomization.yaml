@@ -4,6 +4,6 @@ resources:
 - UI_service.yaml
 images:
 - name: ui-image
-  newName: nginx
-  newTag: latest
+  newName: gitlab.bangwol08.com:5050/bangwol08/healthcare_front/uiservice
+  newTag: e77b2a63
 namespace: default
