@@ -5,5 +5,5 @@ resources:
 images:
 - name: ui-image
   newName: gitlab.bangwol08.com:5050/bangwol08/healthcare_front/uiservice
-  newTag: e77b2a63
+  newTag: f1dbe8f8
 namespace: default
