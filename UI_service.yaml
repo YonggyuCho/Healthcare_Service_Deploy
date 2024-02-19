@@ -30,3 +30,5 @@ spec:
         image: ui-image
         ports:
         - containerPort: 80
+      imagePullSecrets:
+        - name: gitlab-registry
