@@ -22,3 +22,10 @@ spec:
             name: ui-svc
             port:
               number: 80
+      - pathType: Prefix
+        path: "/api/v1/user/"
+        backend:
+          service:
+            name: user-svc
+            port:
+              number: 80
