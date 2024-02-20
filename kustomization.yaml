@@ -11,6 +11,6 @@ images:
   newName: gitlab.bangwol08.com:5050/bangwol08/healthcare_front/uiservice
   newTag: f83737f3
 - name: user-image
-  newName: gitlab.bangwol08.com:5050/bangwol08/healthcare_backend/user
-  newTag: cfafb440
+  newName: nginx
+  newTag: latest
 namespace: default
