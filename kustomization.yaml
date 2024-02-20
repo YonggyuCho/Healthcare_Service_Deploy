@@ -3,6 +3,8 @@ kind: Kustomization
 resources:
 - UI/service.yaml
 - UI/deployment.yaml
+- user/service.yaml
+- user/deployment.yaml
 - ingress/ingress.yaml
 images:
 - name: ui-image
