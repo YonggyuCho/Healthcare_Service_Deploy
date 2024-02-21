@@ -9,7 +9,7 @@ resources:
 images:
 - name: ui-image
   newName: gitlab.bangwol08.com:5050/bangwol08/healthcare_front/uiservice
-  newTag: 0233acdd
+  newTag: eb5e2fc9
 - name: user-image
   newName: nginx
   newTag: latest
