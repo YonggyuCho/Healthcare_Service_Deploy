@@ -12,5 +12,5 @@ images:
   newTag: eb5e2fc9
 - name: user-image
   newName: gitlab.bangwol08.com:5050/bangwol08/healthcare_backend/user
-  newTag: 41f8fdd1
+  newTag: 31f74c75
 namespace: default
