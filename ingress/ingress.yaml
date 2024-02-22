@@ -29,3 +29,10 @@ spec:
             name: user-svc
             port:
               number: 8000
+      - pathType: Prefix
+        path: "/docs"
+        backend:
+          service:
+            name: user-svc
+            port:
+              number: 8000
