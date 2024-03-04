@@ -8,8 +8,8 @@ resources:
 - ingress/ingress.yaml
 images:
 - name: ui-image
-  newName: gitlab.bangwol08.com:5050/bangwol08/healthcare_front/uiservice
-  newTag: 78b048b9
+  newName: gitlab.ddoksik2.site:5050/bangwol08/healthcare_front/uiservice
+  newTag: 3e669665
 - name: user-image
   newName: gitlab.bangwol08.com:5050/bangwol08/healthcare_backend/user
   newTag: 60f99bb5
