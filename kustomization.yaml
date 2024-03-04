@@ -9,7 +9,7 @@ resources:
 images:
 - name: ui-image
   newName: gitlab.ddoksik2.site:5050/bangwol08/healthcare_front/uiservice
-  newTag: f7d8d241
+  newTag: f6a23e0e
 - name: user-image
   newName: gitlab.ddoksik2.site:5050/bangwol08/healthcare_backend/user
   newTag: 0c71bd1a
