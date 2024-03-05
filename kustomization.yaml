@@ -7,6 +7,9 @@ resources:
 - user/deployment.yaml
 - ingress/ingress.yaml
 images:
+- name: diet-image
+  newName: gitlab.ddoksik2.site:5050/bangwol08/healthcare_backend/diet
+  newTag: 4ea918ff
 - name: ui-image
   newName: gitlab.ddoksik2.site:5050/bangwol08/healthcare_front/uiservice
   newTag: f6a23e0e
