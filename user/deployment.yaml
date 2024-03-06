@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: user-deploy
-  annotations:
-    sidecar.jaegertracing.io/inject
 spec:
   replicas: 3
   selector:
