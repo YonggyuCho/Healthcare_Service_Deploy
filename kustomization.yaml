@@ -5,6 +5,8 @@ resources:
 - UI/deployment.yaml
 - user/service.yaml
 - user/deployment.yaml
+- diet/service.yaml
+- diet/deployment.yaml
 - ingress/ingress.yaml
 images:
 - name: diet-image
