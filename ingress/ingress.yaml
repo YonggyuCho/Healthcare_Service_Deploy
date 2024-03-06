@@ -28,3 +28,10 @@ spec:
             name: user-svc
             port:
               number: 8000
+      - pathType: Prefix
+        path: "/api/v1/diet/"
+        backend:
+          service:
+            name: diet-svc
+            port:
+              number: 8000
