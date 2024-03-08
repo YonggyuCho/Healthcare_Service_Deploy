@@ -14,7 +14,7 @@ images:
   newTag: 6011416d
 - name: ui-image
   newName: gitlab.ddoksik2.site:5050/bangwol08/healthcare_front/uiservice
-  newTag: e3281152
+  newTag: 303fb657
 - name: user-image
   newName: gitlab.ddoksik2.site:5050/bangwol08/healthcare_backend/user
   newTag: a0cd6b90
