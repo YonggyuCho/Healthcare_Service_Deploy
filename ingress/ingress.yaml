@@ -22,13 +22,6 @@ spec:
             port:
               number: 80
       - pathType: Prefix
-        path: "/test"
-        backend:
-          service:
-            name: myapp
-            port:
-              number: 80
-      - pathType: Prefix
         path: "/api/v1/user/"
         backend:
           service:
