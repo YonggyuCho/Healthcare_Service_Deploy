@@ -17,5 +17,5 @@ images:
   newTag: f6a23e0e
 - name: user-image
   newName: gitlab.ddoksik2.site:5050/bangwol08/healthcare_backend/user
-  newTag: c2901ee9
+  newTag: a0cd6b90
 namespace: default
