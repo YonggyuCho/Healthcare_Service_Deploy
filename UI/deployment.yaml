@@ -17,5 +17,12 @@ spec:
         image: ui-image
         ports:
         - containerPort: 80
+        resources:
+          limits:
+            cpu: "5m"
+            memory: "128Mi"
+          requests:
+            cpu: "1m"
+            memory: "128Mi"
       imagePullSecrets:
         - name: gitlab-registry
