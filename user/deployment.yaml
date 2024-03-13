@@ -5,7 +5,6 @@ metadata:
   annotations:
     "sidecar.jaegertracing.io/inject": "true"
 spec:
-  replicas: 1
   selector:
     matchLabels:
       app: user
@@ -19,5 +18,12 @@ spec:
         image: user-image
         ports:
         - containerPort: 8000
+        resources:
+          limits:
+            cpu: "10m"
+            memory: "128Mi"
+          requests:
+            cpu: "5m"
+            memory: "128Mi"
       imagePullSecrets:
         - name: gitlab-registry
