@@ -19,10 +19,10 @@ spec:
         - containerPort: 80
         resources:
           limits:
-            cpu: "5m"
+            cpu: "10m"
             memory: "128Mi"
           requests:
-            cpu: "1m"
-            memory: "64Mi"
+            cpu: "5m"
+            memory: "128Mi"
       imagePullSecrets:
         - name: gitlab-registry
